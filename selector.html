@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selector</title>
+
+    <!-- for comment ctrl+/-->
+
+    <style>
+        *{
+            /* margin: 0; */
+        }
+        /* p{
+            color: red;
+        } */
+         p{
+            font-weight: bold;
+         }
+        #fifth{
+            font-size: 26px;
+        }
+        li ,.holud, .yellow{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: bolder;
+        }
+       
+        input[type="password"]{
+            color: green;
+        }
+        .red{
+            color: red;
+        }
+        .blue{
+            color: blue;
+        }
+        .blog{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore mixed other selectors</h3>
+    <p>My <span style="color: green;">first selector</span></p>
+    <p class="yellow">My second selector</p>
+    <p>My third selector</p>
+    <p class="yellow bold">My fourth selector</p>
+    <p id="fifth" class="holud" >My fifth selector</p>
+    <p>My sixth selector</p>
+    <p>My <span class="blue">seventh selector</span></p>
+
+    <ol>
+        <li>element selector</li>
+        <li>id selector</li>
+        <li class="bold">class selector</li>
+        <li>universal selector</li>
+    </ol>
+
+
+    <form action="">
+        <input type="text" ><br>
+        <input type="password" class="red">
+    </form>
+
+
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit incidunt molestiae delectus dolor? Obcaecati maiores deleniti ad laborum sint! Maxime sunt voluptatem optio. Fuga natus molestiae officia soluta debitis.</p>
+    </div>
+</body>
+</html>
